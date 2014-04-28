@@ -1,0 +1,20 @@
+# 参考资料
+# http://www.lxzhu.net/blogcn/archives/git-gitignore-file
+#
+
+
+# 守护模式，默认不提交根目录下的数据
+/*
+
+# 跟踪根目录以下的这些文件夹
+!.gitignore
+!/bin/
+!/src/
+
+# 忽悠bin
+/bin/
+
+# 忽悠src
+/src/
+
+!/src/wechat/
