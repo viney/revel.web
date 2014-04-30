@@ -1,7 +1,7 @@
 #!/bin/sh
 PWDDIR="$(dirname "`readlink -f $0`")"
 PARENTDIR="$(dirname "$PWDDIR")"
-PROJECT=wechat
+PROJECT=www
 
 PIDDIR=$PARENTDIR/pid
 LOGDIR=$PARENTDIR/log
